@@ -26,7 +26,46 @@
         <li><a href="tema11.html">11. Taules</a></li>
         </ul>
     </nav>
-    <main></main>
+    <main>
+        <h2>Enllaços en HTML</h2>
+
+        <ul>
+            <li>L'etiqueta <b>&lt;a></b> s'utilitza per crear enllaços (links) a altres pàgines web, documents, seccions dins de la mateixa pàgina o qualsevol altre recurs.</li>
+            <li>L'element essencial per als enllaços és l'atribut <b>href</b> que defineix l'URL a la qual redirigeix l'usuari.</li>
+            <li>El text entre l'etiqueta d'obertura i la de tancament és el que els usuaris veuran i podran clicar per ser redirigits.</li>
+        </ul>
+
+        <h3>Atributs d'Enllaços:</h3>
+        <ol>
+            <li><b>href (hypertext reference):</b>
+                <ul>
+                    <li>Defineix la <b>URL</b> de destinació de l'enllaç.</li>
+                    <li>Pot ser un enllaç absolut (una URL completa) o relatiu (camí dins del mateix domini).</li>
+                </ul>
+            </li>
+            <li><b>target:</b>
+                <ul>
+                    <li>Defineix <b>on s'obrirà</b> l'enllaç: a la mateixa pestanya, en una nova pestanya o en un nou marc.</li>
+                    <li>Els valors més habituals són:
+                        <ul>
+                            <li><b>_blank</b>: Obre l'enllaç en una <b>nova pestanya</b>.</li>
+                            <li><b>_self</b>: Obre l'enllaç a la <b>mateixa pestanya</b> (valor predeterminat).</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3>Exemple:</h3>
+        <img src="img/EjemploEnllaç.png" alt="Exemple de com crear enllaços a HTML" width="600" height="100">
+
+        <h3 style="color: #FF0000;"><u>Bones Pràctiques:</u></h3>
+        <ul>
+            <li>Utilitza <b>enllaços descriptius</b> en lloc de genèrics com "Clica aquí". Això millora l'accessibilitat i el SEO. <br> <b>Correcte:</b> "Visita la pàgina de Contacte". <br> <b>Incorrecte:</b> "Clica aquí".</li>
+            <li>Utilitza <b>target="_blank"</b> només quan sigui realment necessari, ja que obrir enllaços en noves pestanyes pot confondre alguns usuaris.</li>
+            <li>Sempre assegura't que els <b>enllaços siguin accessibles</b> afegint una descripció adequada per a usuaris amb lectors de pantalla.</li>
+        </ul>
+    </main>
     <footer>
         <h3>Per continuar</h3>
         <p>Continua amb <a href="tema10.html">Llistes.</a> Torna enrrera <a href="tema8.html">Inserció d'imatges.</a></p>
