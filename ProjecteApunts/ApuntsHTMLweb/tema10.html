@@ -2,7 +2,7 @@
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <title>Llistes - Curs d’HTML bàsic</title>
+    <title>Llistes en HTML - Curs d’HTML bàsic</title>
 </head>
 <body>
     <header>
@@ -26,8 +26,67 @@
         <li><a href="tema11.html">11. Taules</a></li>
         </ul>
     </nav>
-    <main></main>
-    
+    <main>
+        <h2>Llistes en HTML</h2>
+
+        <h3>Llistes No Ordenades (&lt;ul>):</h3>
+        <ol>
+            <li>S'utilitzen per a llistes d'elements sense un ordre específic.</li>
+            <li>Els elements es mostren amb vinyetes o altres símbols abans de cada ítem.</li>
+            <li>Cada element de la llista es defineix amb l'etiqueta <b>&lt;li></b> (list item).</li>
+        </ol>
+
+        <h3>Llistes Ordenades (&lt;ol>):</h3>
+        <ol>
+            <li>S'utilitzen per a llistes en què l'ordre dels elements és rellevant.</li>
+            <li>Els elements es numeren automàticament (1, 2, 3, etc.).</li>
+            <li>Cada element de la llista també es defineix amb <b>&lt;li></b>.</li>
+        </ol>
+        <h3>Exemple</h3>
+        <table>
+            <tr>
+                <td>Llista no ordenada</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>Llista ordenada</td>
+            </tr>
+            <tr>
+                <td><img src="img/EjemploListaNOr.png" alt="Exemple llista no ordenade" width="200" height="80"> </td>
+                <td><td><img src="img/EjemploListaOr.png" alt="Exemple llista ordenade" width="200" height="80"></td>
+            </tr>
+        </table>
+        <h3>Atributs de llistes:</h3>
+        <ol>
+            <li><b>Atribut type (per a llistes ordenades &lt;ol>):</b>
+                <ul>
+                    <li>Es pot utilitzar per definir el tipus de numeració de la llista:
+                        <ul>
+                            <li><b>1</b>: Nombres (predeterminat).</li>
+                            <li><b>A</b>: Majúscules.</li>
+                            <li><b>a</b>: Minúscules.</li>
+                            <li><b>I</b>: Números romans en majúscules.</li>
+                            <li><b>i</b>: Números romans en minúscules.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><b>Atribut start (per a llistes ordenades &lt;ol>):</b>
+                <ul>
+                    <li>Defineix el número o lletra per començar la numeració.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3>Exemple:</h3>
+        <img src="img/EjemploListaType.png" alt="Exemple de codi de llistes en HTML" width="300" height="180">
+
+        <h3 style="color: #FF0000;"><u>Bones Pràctiques:</u></h3>
+        <ul>
+            <li>Utilitza <b>llistes no ordenades</b> (&lt;ul>) quan l'ordre dels ítems no sigui important.</li>
+            <li>Utilitza <b>llistes ordenades</b> (&lt;ol>) quan l'ordre sigui rellevant.</li>
+            <li>Personalitza les llistes segons les necessitats visuals o estructurals utilitzant els atributs adequats.</li>
+        </ul>
+
+    </main>
     <footer>
         <h3>Per continuar</h3>
         <p>Continua amb <a href="tema11.html">Taules.</a> Torna enrrera <a href="tema9.html">Enllaços.</a></p>
