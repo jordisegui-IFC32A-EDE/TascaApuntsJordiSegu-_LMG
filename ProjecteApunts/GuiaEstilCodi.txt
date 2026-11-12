@@ -1,0 +1,739 @@
+Guia estil codi:
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Inici - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Benvinguts</h2>
+        <img src="img\PerroProgramadorGIF.gif" alt="Descripció de la imatge" width="350" height="250"/>
+        <p>Aquest lloc web introdueix els conceptes bàsics d’HTML per a crear pàgines web.</p>
+        <p>Fes click a qualsevol tema de l'índex per a veure'l</p>
+        </ul>
+        <h2>Índex del curs</h2>
+    </main>
+    <footer>
+            <p>Comença per la <a href="tema1.html">introducció a HTML </a> o torna a <a href="..\CurriculumJordiApunts.html">currículum</a>.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Introducció a HTML - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="img\ImagenLogoHTML.png" alt="Logo HTML" width="250" height="250"/> 
+        <h2>1. Introducció a HTML</h2>
+        <p><b>Què és HTML?</b></p>
+        <ul>
+        <li><b>HTML</b> (HyperText Markup Language) és el llenguatge de marques per crear pàgines web.
+        <li>Defineix l'estructura de la pègina amb etiquetes que el navegador interpreta per mostrar contingut.
+        </ul>
+        <p><b>Breu Història</b></p>
+        <ul>
+        <li>Creat per <b>Tim Berners-Lee </b>el <b>1991</b>
+        <li><b>HTML 2.0</b> (1995): Primer estàndard oficial.
+        <li><b>HTML5</b> (2014): Última versió amb noves funcionalitats com suport per a vídeo, àudio i gràfics.
+        </ul>
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema2.html">Estructura bàsica d’un document HTML.</a> Torna enrrera <a href="index.html">Inici</a>.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura bàsica d’un document HTML - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Estructura Bàsica d'un document HTML</h2>
+        <p><b>Estructura General</b></p>
+        <ul>
+        <li>Un document HTML es basa en una estructura jeràrquica de <b>etiquetes</b> que defineixen les diferents<br> parts d'una pàgina. 
+        <li>Cada pàgina HTML segueix una estructura similar, començant pel <b>&lt;!DOCTYPE></b>, seguit de les<br> etiquetes &lt;html>, &lt;head>, &lt;body>.
+        </ul>
+        <img src="img\EjemploInicioHTML.png" alt="Ejemplo d’HTML" width="680" height="130"/> 
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema3.html">Etiquetes bàsiques.</a> Torna enrrera <a href="tema1.html">Introducció a HTML</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiquetes bàsiques - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Etiquetes bàsiques</h2>
+        <p><b>&lt;title></b> <br> Defineix el títol que apareix a la pestanya del navegador o als resultats del cercadors.</p>
+        <p><b>&lt;h1></b> a <b>&lt;h6></b> <br> Utilizats per definir títols i subtítols a la pàgina web</p>
+        <p><b>&lt;p></b> <br> S'utilitza per definir blocs de text o paràgrafs.</p>
+        <p><b>&lt;br></b> Força el text a començar en una nova línia.</p>
+        <p><b>& nbsp;</b> <br> Inserta un espai en blanc que no es trenca entre línies.</p>
+        <img src="img\EjemploEtiquetasBasicas.png" alt="Ejemplo Etiquetes" width="560" height="320"/> 
+
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema4.html">Elements HTML i anidament.</a> Torna enrrera <a href="tema2.html">Estructura bàsica d’un document HTML.</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Elements HTML i anidament - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Elements HTML i anidament</h2>
+        <h3><b>Diferència entre Etiquetes i Elements</b></h3>
+        <table>
+            <tr>
+                <td><b>Etiqueta (Tag):</b></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><b>Element:</b></td>
+            </tr>
+            <tr>
+                <td><b>·</b>És la part que defineix l'inici i el final d'un</td>
+                <td></td>
+                <td><b>·</b>Un <b>element</b> inclou l'etiqueta d'obertura, el</td>
+            </tr>
+            <tr>
+                <td>component en HTML. </td>
+                <td> </td>
+                <td>contingut (si n'hi ha), i l'etiqueta de tancament </td>
+            </tr>
+            <tr>
+                <td><b>·</b>Es delimita amb ells símbols &lt; >.</td>
+                <td></td>
+                <td><b>·</b>Els elements poden ser buits o contenir altres</td>
+            </tr>
+
+            <tr>
+                <td>Exemples: &lt;p>, &lt;/p>, &lt;h1>, &lt;/h1>. </td>
+                <td> </td>
+                <td>elements dins.</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td><b>Exemple:</b></td>
+                <td></td>
+                <td><b>Exemple:</b></td>
+            </tr>
+            <tr>
+                <td><b><img src="img\EjemploEtiqueta.png" alt="Ejemplo Etiquetes" width="260" height="60"/></b></td>
+                <td></td>
+                <td><b><img src="img\EjemploElemento.png" alt="Ejemplo Etiquetes" width="260" height="60"/></b></td>
+            </tr>
+        </table>
+        <h3>Elements anidats</h3>
+        <ul>
+        <li><b>Anidament</b> es refereix a col·locar un <br>element HTML dins d'un altre element</li>
+        <li>És important seguir correctament <br>l'ordre de les etiquetes: la primera<br>que s'obre és l'última que es tanca.</li>
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema5.html">Atributs HTML.</a> Torna enrrera <a href="tema3.html">Etiquetes bàsiques.</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Atributs HTML - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Atributs HTML</h2>
+        <p>Els atributs en HTML són elements que afegeixen informacío extra a les etiquetes HTML per modificar-ne el comportament<br>o l'aparença. Aquests atributs sempre es col·loquen dins de l'etiqueta d'obertura i segueixen el format <b>nom="valor"</b>.</p>
+        <h3>Exemple:</h3>
+        <img src="img\EjemploAtributs.png" alt="Exemple d'ús atributs" width="550" height="250"/>
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema6.html">Text formats.</a> Torna enrrera <a href="tema4.html">Elements HTML i anidament</a></p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Text formatat - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>        
+        <h2>Text formatat</h2>
+
+        <h3>&lt;b> i &lt;strong>: Negreta</h3>
+        <ul>
+            <li><b>&lt;b></b> aplica negreta sense indicar cap importància semàntica.</li>
+            <li><strong>&lt;strong></strong> aplica negreta i indica que el text és important.</li>
+        </ul>
+
+        <h3>&lt;i> i &lt;em>: Cursiva</h3>
+        <ul>
+            <li><i>&lt;i></i> aplica cursiva sense implicar èmfasi.</li>
+            <li><em>&lt;em></em> aplica cursiva amb èmfasi, indicant que el text té importància.</li>
+        </ul>
+
+        <h3>&lt;u>: Subratllat</h3>
+        <p>S'utilitza per subratllar text.</p>
+
+        <h3>&lt;strike> o &lt;s>: Text ratllat</h3>
+        <p>Aplica un ratllat al text, indicant que està esborrat o ja no és rellevant.</p>
+
+        <h3>&lt;sup>: Superíndex</h3>
+        <p>S'utilitza per elevar el text, com en exponents matemàtics.</p>
+
+        <h3>&lt;sub>: Subíndex</h3>
+        <p>S'utilitza per posar text en la posició de subíndex, sovint utilitzat en fórmules químiques.</p>
+
+        <img src="img/EjemploFormatText.png" alt="Exemple de codi format de text" width="500" height="350">
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema7.html">Comentaris en HTML.</a> Torna enrrera <a href="tema5.html">Atributs HTML.</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Comentaris en HTML - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Comentaris en HTML</h2>
+
+        <ul>
+            <li>Els <b>comentaris</b> en HTML són línies de text que s'afegeixen al codi per deixar notes o explicacions, però que <b>no són visibles</b> per als usuaris finals <br>en la pàgina web.</li>
+            <li>S'utilitzen per ajudar els desenvolupadors a <b>documentar el codi</b>, descriure seccions específiques o deixar indicacions per a futurs desenvolupadors.</li>
+            <li>Els comentaris <b>no afecten el rendiment ni la visualització</b> de la pàgina en el navegador.</li>
+        </ul>
+
+        <h3 style="color: #FF0000;"><u>Bones Pràctiques amb Comentaris:</u></h3>
+        <ul>
+            <li>Mantenir-los clars i concisos: Els comentaris han de ser breus i proporcionar informació útil.</li>
+            <li>Evitar comentaris excessius: Només afegeix comentaris on sigui necessari per evitar sobrecarregar el codi.</li>
+            <li>No deixar comentaris innecessaris en producció: Els comentaris en entorns de desenvolupament poden ser útils, però en codi de producció és millor deixar només els essencials.</li>
+        </ul>
+
+        <h3>Exemple:</h3>
+        <img src="img/EjemploMensajes.png" alt="Exemple de comentari a HTML" width="400" height="220">
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema8.html">Inserció d'imatges.</a> Torna enrrera <a href="tema6.html">Text formatat.</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Comentaris en HTML - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Comentaris en HTML</h2>
+
+        <ul>
+            <li>Els <b>comentaris</b> en HTML són línies de text que s'afegeixen al codi per deixar notes o explicacions, però que <b>no són visibles</b> per als usuaris finals <br>en la pàgina web.</li>
+            <li>S'utilitzen per ajudar els desenvolupadors a <b>documentar el codi</b>, descriure seccions específiques o deixar indicacions per a futurs desenvolupadors.</li>
+            <li>Els comentaris <b>no afecten el rendiment ni la visualització</b> de la pàgina en el navegador.</li>
+        </ul>
+
+        <h3 style="color: #FF0000;"><u>Bones Pràctiques amb Comentaris:</u></h3>
+        <ul>
+            <li>Mantenir-los clars i concisos: Els comentaris han de ser breus i proporcionar informació útil.</li>
+            <li>Evitar comentaris excessius: Només afegeix comentaris on sigui necessari per evitar sobrecarregar el codi.</li>
+            <li>No deixar comentaris innecessaris en producció: Els comentaris en entorns de desenvolupament poden ser útils, però en codi de producció és millor deixar només els essencials.</li>
+        </ul>
+
+        <h3>Exemple:</h3>
+        <img src="img/EjemploMensajes.png" alt="Exemple de comentari a HTML" width="400" height="220">
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema8.html">Inserció d'imatges.</a> Torna enrrera <a href="tema6.html">Text formatat.</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Enllaços - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Enllaços en HTML</h2>
+
+        <ul>
+            <li>L'etiqueta <b>&lt;a></b> s'utilitza per crear enllaços (links) a altres pàgines web, documents, seccions dins de la mateixa pàgina o qualsevol altre recurs.</li>
+            <li>L'element essencial per als enllaços és l'atribut <b>href</b> que defineix l'URL a la qual redirigeix l'usuari.</li>
+            <li>El text entre l'etiqueta d'obertura i la de tancament és el que els usuaris veuran i podran clicar per ser redirigits.</li>
+        </ul>
+
+        <h3>Atributs d'Enllaços:</h3>
+        <ol>
+            <li><b>href (hypertext reference):</b>
+                <ul>
+                    <li>Defineix la <b>URL</b> de destinació de l'enllaç.</li>
+                    <li>Pot ser un enllaç absolut (una URL completa) o relatiu (camí dins del mateix domini).</li>
+                </ul>
+            </li>
+            <li><b>target:</b>
+                <ul>
+                    <li>Defineix <b>on s'obrirà</b> l'enllaç: a la mateixa pestanya, en una nova pestanya o en un nou marc.</li>
+                    <li>Els valors més habituals són:
+                        <ul>
+                            <li><b>_blank</b>: Obre l'enllaç en una <b>nova pestanya</b>.</li>
+                            <li><b>_self</b>: Obre l'enllaç a la <b>mateixa pestanya</b> (valor predeterminat).</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3>Exemple:</h3>
+        <img src="img/EjemploEnllaç.png" alt="Exemple de com crear enllaços a HTML" width="600" height="100">
+
+        <h3 style="color: #FF0000;"><u>Bones Pràctiques:</u></h3>
+        <ul>
+            <li>Utilitza <b>enllaços descriptius</b> en lloc de genèrics com "Clica aquí". Això millora l'accessibilitat i el SEO. <br> <b>Correcte:</b> "Visita la pàgina de Contacte". <br> <b>Incorrecte:</b> "Clica aquí".</li>
+            <li>Utilitza <b>target="_blank"</b> només quan sigui realment necessari, ja que obrir enllaços en noves pestanyes pot confondre alguns usuaris.</li>
+            <li>Sempre assegura't que els <b>enllaços siguin accessibles</b> afegint una descripció adequada per a usuaris amb lectors de pantalla.</li>
+        </ul>
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema10.html">Llistes.</a> Torna enrrera <a href="tema8.html">Inserció d'imatges.</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Llistes en HTML - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Llistes en HTML</h2>
+
+        <h3>Llistes No Ordenades (&lt;ul>):</h3>
+        <ol>
+            <li>S'utilitzen per a llistes d'elements sense un ordre específic.</li>
+            <li>Els elements es mostren amb vinyetes o altres símbols abans de cada ítem.</li>
+            <li>Cada element de la llista es defineix amb l'etiqueta <b>&lt;li></b> (list item).</li>
+        </ol>
+
+        <h3>Llistes Ordenades (&lt;ol>):</h3>
+        <ol>
+            <li>S'utilitzen per a llistes en què l'ordre dels elements és rellevant.</li>
+            <li>Els elements es numeren automàticament (1, 2, 3, etc.).</li>
+            <li>Cada element de la llista també es defineix amb <b>&lt;li></b>.</li>
+        </ol>
+        <h3>Exemple</h3>
+        <table>
+            <tr>
+                <td>Llista no ordenada</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td>Llista ordenada</td>
+            </tr>
+            <tr>
+                <td><img src="img/EjemploListaNOr.png" alt="Exemple llista no ordenade" width="200" height="80"> </td>
+                <td><td><img src="img/EjemploListaOr.png" alt="Exemple llista ordenade" width="200" height="80"></td>
+            </tr>
+        </table>
+        <h3>Atributs de llistes:</h3>
+        <ol>
+            <li><b>Atribut type (per a llistes ordenades &lt;ol>):</b>
+                <ul>
+                    <li>Es pot utilitzar per definir el tipus de numeració de la llista:
+                        <ul>
+                            <li><b>1</b>: Nombres (predeterminat).</li>
+                            <li><b>A</b>: Majúscules.</li>
+                            <li><b>a</b>: Minúscules.</li>
+                            <li><b>I</b>: Números romans en majúscules.</li>
+                            <li><b>i</b>: Números romans en minúscules.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><b>Atribut start (per a llistes ordenades &lt;ol>):</b>
+                <ul>
+                    <li>Defineix el número o lletra per començar la numeració.</li>
+                </ul>
+            </li>
+        </ol>
+
+        <h3>Exemple:</h3>
+        <img src="img/EjemploListaType.png" alt="Exemple de codi de llistes en HTML" width="300" height="180">
+
+        <h3 style="color: #FF0000;"><u>Bones Pràctiques:</u></h3>
+        <ul>
+            <li>Utilitza <b>llistes no ordenades</b> (&lt;ul>) quan l'ordre dels ítems no sigui important.</li>
+            <li>Utilitza <b>llistes ordenades</b> (&lt;ol>) quan l'ordre sigui rellevant.</li>
+            <li>Personalitza les llistes segons les necessitats visuals o estructurals utilitzant els atributs adequats.</li>
+        </ul>
+
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Continua amb <a href="tema11.html">Taules.</a> Torna enrrera <a href="tema9.html">Enllaços.</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Taules - Curs d’HTML bàsic</title>
+</head>
+<body>
+    <header>
+        <h1>Curs d’HTML bàsic</h1>
+        <p>Aprèn els fonaments del llenguatge HTML.</p>
+    </header>
+    <nav>
+        <h2>Continguts del curs</h2>
+        <ul>
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="tema1.html">1. Introducció a HTML</a></li>
+        <li><a href="tema2.html">2. Estructura bàsica d’un document HTML</a></li>
+        <li><a href="tema3.html">3. Etiquetes bàsiques</a></li>
+        <li><a href="tema4.html">4. Elements HTML i anidament</a></li>
+        <li><a href="tema5.html">5. Atributs HTML</a></li>
+        <li><a href="tema6.html">6. Text formatat</a></li>
+        <li><a href="tema7.html">7. Comentaris en HTML</a></li>
+        <li><a href="tema8.html">8. Inserció d’imatges</a></li>
+        <li><a href="tema9.html">9. Enllaços</a></li>
+        <li><a href="tema10.html">10. Llistes</a></li>
+        <li><a href="tema11.html">11. Taules</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Taules bàsiques amb HTML</h2>
+
+        <h3>Etiqueta &lt;table>:</h3>
+        <ol>
+            <li>L'etiqueta <b>&lt;table></b> defineix la taula i actua com el contenidor principal.</li>
+        </ol>
+
+        <h3>Etiqueta &lt;tr> (table row):</h3>
+        <ol>
+            <li>Defineix una <b>fila</b> dins de la taula.</li>
+        </ol>
+
+        <h3>Etiqueta &lt;td> (table data):</h3>
+        <ul>
+            <li>Crea una <b>cel·la</b> dins d'una fila de la taula (dades de la taula).</li>
+        </ul>
+        <h3>Exemple:</h3>
+        <img src="img/EjemploTablas1.png" alt="Exemple de codi de taules en HTML" width="600" height="300">
+
+
+        <h3>Atributs de Taula:</h3>
+        <ol>
+            <li><b>border:</b>
+                <ul>
+                    <li>Afegeix una <b>vora</b> a la taula i a les cel·les.</li>
+                </ul>
+            </li>
+            <li><b>cellpadding:</b>
+                <ul>
+                    <li>Defineix l'<b>espai</b> entre el contingut de la cel·la i la vora de la cel·la.</li>
+                </ul>
+            </li>
+            <li><b>cellspacing:</b>
+                <ul>
+                    <li>Controla l'<b>espai</b> entre les cel·les de la taula.</li>
+                </ul>
+            </li>
+        </ol>
+        <h3>Exemple:</h3>
+        <img src="img/EjemploTablas2.png" alt="Exemple de codi de taules en HTML" width="600" height="300">
+
+        <h3>Etiqueta &lt;thead> (table head):</h3>
+        <ul>
+            <li>Defineix l'<b>encapçalament</b> de la taula, agrupant les files d'encapçalament (habitualment les que contenen &lt;th>).</li>
+        </ul>
+
+        <h3>Etiqueta &lt;tbody> (table body):</h3>
+        <ul>
+            <li>Agrupa el <b>cos</b> de la taula, és a dir, les files de dades. Se sol fer servir per separar les dades dels encapçalaments.</li>
+        </ul>
+
+        <h3>Etiqueta &lt;th> (table header):</h3>
+        <ul>
+            <li>S'utilitza per crear una cel·la d'<b>encapçalament</b> en una taula. El text dins de &lt;th> apareix en negreta i centrat per defecte.</li>
+        </ul>
+
+        <h3>Exemple:</h3>
+        <img src="img/EjemploTablas3.png" alt="Exemple de codi de taules en HTML" width="600" height="450">
+
+        <h3 style="color: #FF0000;"><u>Bones Pràctiques:</u></h3>
+        <ul>
+            <li>Utilitza <b>&lt;thead> i &lt;tbody></b> per organitzar les taules, especialment en taules més grans, per tal de separar clarament l'encapçalament del cos de la taula.</li>
+            <li>Mantingues les taules simples per a dades tabulades i utilitza CSS per al disseny més avançat de les taules (colors, mida de la font, etc.).</li>
+        </ul>
+    </main>
+    <footer>
+        <h3>Per continuar</h3>
+        <p>Final, torna a <a href="index.html">Índex.</a> Torna enrrera <a href="tema10.html">Llistes.</a></p>
+    </footer>
+</body>
+</html>
